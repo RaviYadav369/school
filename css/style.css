@@ -27,7 +27,7 @@ input[type="submit"], input[type="reset"], .w3layouts_banner_info_right ul li a,
 	-ms-transition: .5s ease-in;
 }
 /*-- banner --*/
-.banner {
+/* .banner {
 	background: url(../images/laptop14.jpeg) no-repeat 0px 0px;
 	background-size: cover;
 	-webkit-background-size: cover;
@@ -35,11 +35,15 @@ input[type="submit"], input[type="reset"], .w3layouts_banner_info_right ul li a,
 	-o-background-size: cover;
 	-ms-background-size: cover;
 	min-height: 700px;
-}
+} */
 /*-- nav --*/
+.container1{
+	height: 130px;
+}
 .navbar {
 	background: none;
 	border: none;
+	flex-direction: column;
 }
 .navbar {
 	margin-bottom: 0;
@@ -49,8 +53,8 @@ input[type="submit"], input[type="reset"], .w3layouts_banner_info_right ul li a,
 .navbar-brand img{margin-right: 14px;
     border: 2px solid #8e1d1d;
     border-radius: 100%;}
-.navbar-brand span{font-size: 24px;
-    text-align: justify;
+.navbar-brand span{font-size: 34px;
+    text-align: center;
     font-weight: 600;
     color: #8e1d1d;
     line-height: 1.3;}
@@ -106,6 +110,13 @@ input[type="submit"], input[type="reset"], .w3layouts_banner_info_right ul li a,
 .nav > li > a {
 	font-family: 'Cabin Condensed', sans-serif;
 }
+.nav-item{
+	width: 15%;
+}
+.fade:not(.show) {
+    opacity: 1;
+}
+
 /*-- //nav --*/
 /* Yaku */
 .link--yaku {
@@ -160,6 +171,13 @@ input[type="submit"], input[type="reset"], .w3layouts_banner_info_right ul li a,
 }
 
 /* Media Queries */
+@media screen  and (max-width:385px){
+	.navbar-brand span{font-size: 15px;
+		text-align: center;
+		font-weight: 600;
+		color: #8e1d1d;
+		line-height: 1.3;}
+}
 @media screen and (max-width: 50em) {
 .link--surinami {
 	font-size: 3em;
@@ -760,7 +778,7 @@ opacity: 0;
 	padding: 3em 0;
 }
 .w3_testimonials_grid_left p {
-	color: #fff;
+	color: black;
 	line-height: 2em;
 	margin: 4em 0 0;
 }
@@ -790,7 +808,7 @@ opacity: 0;
 	outline: none;
 	padding: 10px 0;
 	font-size: 14px;
-	color: #fff;
+	color: black;
 	font-weight: 600;
 	background: #0047AB;
 	width: 46%;
@@ -800,7 +818,7 @@ opacity: 0;
 }
 .w3layouts_mail_grid_right input[type="submit"]:hover, .w3layouts_mail_grid_right input[type="reset"]:hover {
 	background: #212121;
-	color: #fff;
+	color: black;
 }
 .w3layouts_mail_grid_right {
 	padding: 0;
@@ -812,7 +830,7 @@ opacity: 0;
 }
 .agile_map_grid ul li {
 	display: inline-block;
-	color: #fff;
+	color: black;
 	margin-bottom: 1em;
 	text-transform: capitalize;
 }
@@ -820,7 +838,7 @@ opacity: 0;
 	margin: 0;
 }
 .agile_map_grid ul li a, .agileits_w3layouts_footer_grid ul li a {
-	color: #fff;
+	color:black;
 	text-decoration: none;
 }
 .agile_map_grid ul li a:hover {
@@ -879,16 +897,16 @@ opacity: 0;
 /*-- //contact --*/
 /*-- footer --*/
 .footer {
-	background: url(../images/laptop15.jpeg) no-repeat 0px 0px;
+	background: url(../images/laptop51.jpg) no-repeat 0px 0px;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	-ms-background-size: cover;
-	min-height: 470px;
+	min-height: 570px;
 }
 .agileits_w3layouts_footer_grid {
-	border-left: 1px solid #fff;
+	border-left: 1px solid black;
 	padding-left: 3em;
 }
 .agileits_w3layouts_footer_grid h3 {
@@ -899,7 +917,7 @@ opacity: 0;
 }
 .agileits_w3layouts_footer_grid ul li {
 	display: inline-block;
-	color: #fff;
+	color: black;
 	margin-bottom: .5em;
 	text-transform: capitalize;
 }
@@ -907,7 +925,7 @@ opacity: 0;
 	font-weight: 600;
 }
 .agileits_w3layouts_footer_grid p {
-	color: #fff;
+	color:black;
 }
 .agileits_w3layouts_footer_grid p i {
 	display: block;
@@ -918,7 +936,7 @@ opacity: 0;
 	margin: 5em 0 0;
 }
 .w3_agileits_footer_grid p {
-	color: #fff;
+	color: black;
 	line-height: 2em;
 }
 .w3_agileits_footer_grid h3 {
@@ -940,13 +958,13 @@ opacity: 0;
 .w3_agileits_footer_grid h4 {
 	font-size: 1em;
 	letter-spacing: 2px;
-	color: #fff;
+	color: black;
 	margin: 1.5em 0;
 	text-transform: uppercase;
 }
 .w3_agileits_footer_grid ul li a{
 	display: block;
-	color: #eeee; font-size:16px;
+	color: black; font-size:16px;
 	text-decoration:none;
 	
 }
@@ -966,14 +984,14 @@ opacity: 0;
 }
 .w3_agileits_footer_grid form {
 	padding: 15px 15px 15px 25px;
-	border: 1px solid #fff;
+	border: 1px solid black;
 	margin: 2em 0 0;
 	border-radius: 25px;
 }
 .w3_agileits_footer_grid input[type="email"] {
 	outline: none;
 	border: none;
-	color: #fff;
+	color:black;
 	font-size: 14px;
 	width: 89%;
 	background: none;
@@ -993,7 +1011,7 @@ opacity: 0;
 }
 .wthree_copy_right p {
 	font-size: 0.8rem;
-	color: #fff;
+	color:black;
 	line-height: 2em;
 }
 .wthree_copy_right p a {
@@ -1001,7 +1019,7 @@ opacity: 0;
 	text-decoration: noen;
 }
 .wthree_copy_right p a:hover {
-	color: #fff;
+	color: black;
 }
 /*-- //footer --*/
 /*-- to-top --*/
