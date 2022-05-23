@@ -182,7 +182,7 @@ input[type="submit"], input[type="reset"], .w3layouts_banner_info_right ul li a,
 
 /* Media Queries */
 @media screen  and (max-width:360px){
-	.navbar-brand span{font-size: 17px;
+	.navbar-brand span{font-size: 20px;
 		text-align: center;
 		font-weight: 600;
 		color: #5bc18e;
@@ -198,6 +198,13 @@ input[type="submit"], input[type="reset"], .w3layouts_banner_info_right ul li a,
 		    width: 90px;
             height: 90px;
             margin-top: 2px;
+		}
+		.navbar .navbar-collapse, .navbar .navbar-form {
+			border: none;
+			/* position: absolute; */
+			width: 100%;
+			background: #eeeeeee8;
+			z-index: 999;
 		}
 		.NewsHead {
 			width: 35%;
