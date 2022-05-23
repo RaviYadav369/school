@@ -1325,9 +1325,9 @@ opacity: 0;
 }
 .navbar .navbar-collapse, .navbar .navbar-form {
 	border: none;
-	position: absolute;
+	/* position: absolute; */
 	width: 100%;
-	background: #a5a5a5;
+	background: #eeeeeee8;
 	z-index: 999;
 }
 .nav > li > a {
