@@ -53,13 +53,18 @@ input[type="submit"], input[type="reset"], .w3layouts_banner_info_right ul li a,
 .navbar-brand img{margin-right: 4px;
     /* border: 2px solid #5bc18e; */
     border-radius: 100%;}
-.navbar-brand span{font-size: 34px;
+
+.nav-bar-img{
+		width: 165px;
+		height: 125px;
+	}
+.navbar-brand span{font-size: 30px;
     text-align: center;
     font-weight: 600;
     color: #5bc18e;
     line-height: 1.3;}
 .navbar-brand span span{
-	border-top: 1px solid #ccc;
+	/* border-top: 1px solid #ccc; */
     margin: 3px 0 0;
     padding: 7px 0 0;
     display: block;
@@ -188,6 +193,11 @@ input[type="submit"], input[type="reset"], .w3layouts_banner_info_right ul li a,
 		.p{
 			color: blueviolet;
 			font-size: 12px;
+		}
+		.nav-bar-img{
+		    width: 90px;
+            height: 90px;
+            margin-top: 2px;
 		}
 		.NewsHead {
 			width: 35%;
