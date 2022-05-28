@@ -1857,3 +1857,10 @@ p, .w3layouts_mail_grid_right input[type="text"], .agileits_w3layouts_footer_gri
 	padding: 0;
 }
 }
+
+@keyframes ravi{
+	100% {
+		transform: translateX(-534.875px);
+	}
+}
+
